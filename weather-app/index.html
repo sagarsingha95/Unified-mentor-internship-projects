@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <h1>Weather App</h1>
+  </nav>
+
+  <div class="container">
+    <div class="left">
+        <p class="caution">⚠️ Use VPN if API doesn’t load in Asia</p>
+        <div class="search-box">
+        <input type="text" placeholder="Search your city" id="cityInput" />
+        <button id="search-btn">Search</button>
+      </div>
+      <div class="current">
+        <h1 id="temp">-- °C</h1>
+        <p id="cityName">City</p>
+        <p id="weather">--</p>
+        <div id="weather-icon"></div>
+      </div>
+    </div>
+
+    <div class="right">
+      <h2>Next 7 Days Forecast</h2>
+      <div class="forecast" id="forecast"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

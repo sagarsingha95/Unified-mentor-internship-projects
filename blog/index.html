@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Blog | Future of Artificial Intelligence</title>
+
+  <!-- SEO -->
+  <meta name="description" content="A modern AI blog with animations, pagination, and accessibility support." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- GSAP -->
+  <script src="https://unpkg.com/gsap@3/dist/gsap.min.js" defer></script>
+  <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js" defer></script>
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="navbar" role="navigation" aria-label="Main navigation">
+  <h1 tabindex="0">🤖 AI Blog</h1>
+  <button id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+</header>
+
+<main id="main-content">
+
+  <section class="hero" aria-labelledby="hero-heading">
+    <h2 id="hero-heading">The Future of Artificial Intelligence</h2>
+    <p>Explore AI trends, careers, and technologies.</p>
+  </section>
+
+  <section class="blogs" aria-labelledby="blog-heading">
+    <h2 id="blog-heading">Latest Articles</h2>
+
+    <!-- Blog list -->
+    <div 
+      id="blogGrid" 
+      class="blog-grid"
+      role="list"
+      aria-live="polite"
+    ></div>
+
+    <!-- Pagination -->
+    <div class="pagination" role="navigation" aria-label="Pagination">
+      <button id="prevBtn" aria-label="Previous page">Previous</button>
+      <span id="pageInfo" aria-live="polite"></span>
+      <button id="nextBtn" aria-label="Next page">Next</button>
+    </div>
+  </section>
+  <section class="categories" aria-labelledby="category-heading">
+  <h2 id="category-heading">Featured AI Topics</h2>
+
+  <div class="category-grid">
+    <div class="category-card" tabindex="0">
+      🤖 <h3>Machine Learning</h3>
+      <p>Algorithms that learn from data and improve over time.</p>
+    </div>
+
+    <div class="category-card" tabindex="0">
+      🧠 <h3>Deep Learning</h3>
+      <p>Neural networks inspired by the human brain.</p>
+    </div>
+
+    <div class="category-card" tabindex="0">
+      📊 <h3>AI in Business</h3>
+      <p>Automation, analytics, and intelligent decision-making.</p>
+    </div>
+
+    <div class="category-card" tabindex="0">
+      🎨 <h3>Generative AI</h3>
+      <p>Creating text, images, videos, and music using AI.</p>
+    </div>
+  </div>
+</section>
+<section class="why-ai" aria-labelledby="why-heading">
+  <h2 id="why-heading">Why Artificial Intelligence Matters</h2>
+
+  <p>
+    Artificial Intelligence is no longer a futuristic concept—it is shaping how
+    we work, communicate, and solve global problems. From improving healthcare
+    systems to accelerating scientific research, AI enables smarter decisions
+    at scale. Understanding AI today empowers individuals and businesses to stay
+    competitive in an increasingly digital world.
+  </p>
+</section>
+<section class="about" aria-labelledby="about-heading">
+  <h2 id="about-heading">About This Blog</h2>
+
+  <p>
+    AI Blog is a learning-focused platform created to simplify complex artificial
+    intelligence concepts for students, developers, and tech enthusiasts. This
+    blog shares practical knowledge, career guidance, and real-world AI use
+    cases while emphasizing ethical and responsible technology adoption.
+  </p>
+</section>
+
+
+</main>
+
+<footer role="contentinfo">
+  <p>© 2026 AI Blog | Accessible & Animated</p>
+</footer>
+<section class="newsletter" aria-labelledby="newsletter-heading">
+  <h2 id="newsletter-heading">Stay Updated with AI Trends</h2>
+
+  <form aria-label="Newsletter subscription form">
+    <label for="email" class="sr-only">Email address</label>
+    <input 
+      type="email" 
+      id="email" 
+      placeholder="Enter your email"
+      required
+      aria-required="true"
+    />
+    <button type="submit">Subscribe</button>
+  </form>
+
+  <p class="note">
+    No spam. Only high-quality AI insights delivered monthly.
+  </p>
+</section>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "What is Artificial Intelligence?",
+    "desc": "Artificial Intelligence, commonly known as AI, refers to the simulation of human intelligence in machines that are programmed to think, learn, and make decisions. It includes concepts such as machine learning, deep learning, neural networks, and natural language processing. AI is widely used today in applications like recommendation systems, voice assistants, image recognition, and autonomous vehicles, making it one of the most impactful technologies of the modern era."
+  },
+  {
+    "id": 2,
+    "title": "AI in Healthcare",
+    "desc": "Artificial Intelligence is revolutionizing the healthcare industry by improving diagnostic accuracy, reducing human error, and enhancing patient care. AI-powered systems are used in medical imaging, disease prediction, drug discovery, and personalized treatment planning. From detecting cancer at early stages to assisting doctors with clinical decision-making, AI is helping healthcare professionals save time, reduce costs, and deliver better outcomes for patients worldwide."
+  },
+  {
+    "id": 3,
+    "title": "AI in Finance",
+    "desc": "The financial sector has rapidly adopted AI to improve efficiency, security, and customer experience. AI is used for fraud detection, credit scoring, algorithmic trading, and personalized financial recommendations. Machine learning models analyze massive amounts of transaction data in real time to identify suspicious behavior. As a result, banks and fintech companies can reduce risks, prevent fraud, and make smarter, data-driven decisions."
+  },
+  {
+    "id": 4,
+    "title": "Generative AI Explained",
+    "desc": "Generative AI focuses on creating new content such as text, images, music, and videos using advanced machine learning models. Tools like ChatGPT, DALL·E, and Midjourney have demonstrated how AI can generate human-like responses and creative outputs. This technology is transforming industries such as marketing, design, education, and entertainment, while also raising important ethical questions around originality, copyright, and responsible usage."
+  },
+  {
+    "id": 5,
+    "title": "AI Careers in 2026",
+    "desc": "AI careers are among the fastest-growing and highest-paying roles in the technology industry. Popular job positions include machine learning engineer, data scientist, AI researcher, and prompt engineer. As companies increasingly rely on data-driven solutions, professionals with skills in Python, statistics, cloud computing, and AI frameworks are in high demand. Preparing for an AI career requires continuous learning and hands-on project experience."
+  },
+  {
+    "id": 6,
+    "title": "Ethics of Artificial Intelligence",
+    "desc": "As AI systems become more powerful, ethical concerns surrounding bias, privacy, and transparency have become increasingly important. AI models can unintentionally reinforce societal biases if trained on unbalanced data. Issues such as surveillance, data misuse, and lack of accountability raise serious questions about responsible AI development. Addressing these challenges requires ethical guidelines, regulations, and collaboration between developers, policymakers, and researchers."
+  },
+  {
+    "id": 7,
+    "title": "AI in Education",
+    "desc": "Artificial Intelligence is transforming education by enabling personalized learning experiences tailored to individual students. AI-powered tools can analyze learning patterns, recommend resources, and provide instant feedback. Virtual tutors and intelligent learning platforms help students learn at their own pace while assisting teachers with grading and curriculum planning. This technology has the potential to make education more accessible, inclusive, and effective worldwide."
+  },
+  {
+    "id": 8,
+    "title": "Future of AI Automation",
+    "desc": "AI-driven automation is reshaping industries by streamlining repetitive tasks and improving operational efficiency. From manufacturing and logistics to customer support and software development, automation powered by AI is reducing costs and increasing productivity. While this transformation raises concerns about job displacement, it also creates new opportunities for roles focused on creativity, strategy, and human-centered problem-solving in the evolving workforce."
+  }
+]

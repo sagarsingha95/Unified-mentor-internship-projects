@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url('./image/road_path_grass_field_clouds_sky_forest_nature_landscape_wallpaper_background_4k_hd_nature.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  min-height: 100vh;
+}
+
+nav h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.left {
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  gap:20px;
+}
+
+.caution {
+  font-size: 14px;
+  color: rgb(255, 50, 50);
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.search-box button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: greenyellow;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background-color: limegreen;
+  color: white;
+}
+
+.current h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+#weather-icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.right {
+  backdrop-filter: blur(12px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px gray;
+  padding: 20px;
+}
+
+.forecast {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.day-card {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.day-card img {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
